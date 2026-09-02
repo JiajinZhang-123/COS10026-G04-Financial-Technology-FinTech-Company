@@ -215,3 +215,45 @@ footer {
         min-height: 450px;
     }
 }
+
+
+.career-areas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.career-areas table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: white;
+}
+
+.career-areas caption {
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.career-areas th,
+.career-areas td {
+    padding: 1rem;
+    border: 1px solid #d1d5db;
+    text-align: left;
+}
+
+.career-areas th {
+    background-color: #f1f5f9;
+}
+
+
+.inclusion {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.inclusion p {
+    max-width: 800px;
+}
