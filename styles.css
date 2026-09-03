@@ -1,5 +1,3 @@
-
-
 * {
     box-sizing: border-box;
 }
@@ -73,11 +71,9 @@ nav a:focus {
     align-items: center;
 
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             rgba(15, 23, 42, 0.95),
-            rgba(30, 64, 175, 0.85)
-        );
+            rgba(30, 64, 175, 0.85));
 
     color: white;
 }
@@ -256,4 +252,40 @@ footer {
 
 .inclusion p {
     max-width: 800px;
+}
+
+.career-tips {
+    width: 28%;
+    float: right;
+    margin: 20px 0 20px 30px;
+    padding: 20px;
+
+    background-color: #f8f9fb;
+
+    border: 1px solid #d6d9de;
+    border-left: 5px solid #1f4e79;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.career-tips h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #1f4e79;
+}
+
+.career-tips p {
+    line-height: 1.5;
+}
+
+.career-tips ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.career-tips li {
+    margin-bottom: 8px;
+    line-height: 1.4;
 }
