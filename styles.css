@@ -213,67 +213,123 @@ footer {
 }
 
 
-.career-areas {
+
+.jobs {
+    max-width: none;
+    margin: 0;
+    padding: 90px 15%;
+    background: linear-gradient(135deg, #1f3158, #405fc2);
+    color: white;
+}
+
+.jobs h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.jobs>p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+
+
+.jobs-layout {
+    display: flex;
+    gap: 30px;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem 4rem;
-}
-
-.career-areas table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1.5rem;
-    background-color: white;
-}
-
-.career-areas caption {
-    margin-bottom: 0.75rem;
-    font-weight: bold;
-    text-align: left;
-}
-
-.career-areas th,
-.career-areas td {
-    padding: 1rem;
-    border: 1px solid #d1d5db;
-    text-align: left;
-}
-
-.career-areas th {
-    background-color: #f1f5f9;
+    margin: 40px auto;
+    padding: 0 20px;
+    align-items: flex-start;
 }
 
 
-.inclusion {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem 4rem;
+
+.job-list {
+    flex: 1;
+    min-width: 0;
+    order: 1;
 }
 
-.inclusion p {
-    max-width: 800px;
+
+
+.job {
+    margin: 0 0 25px;
+    padding: 25px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
+.job h2 {
+    color: #1f4e79;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.job h3 {
+    color: #333333;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.job p {
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.job ol,
+.job ul {
+    padding-left: 25px;
+    line-height: 1.6;
+}
+
+.job li {
+    margin-bottom: 7px;
+}
+
+
+/* =========================
+   CAREER TIPS SIDEBAR
+   ========================= */
 
 .career-tips {
-    width: 28%;
-    float: right;
-    margin: 20px 0 20px 30px;
+    width: 280px;
+    flex-shrink: 0;
+
+    /* Put sidebar on RIGHT */
+    order: 2;
+
+    /* Follow user when scrolling */
+    position: sticky;
+    top: 20px;
+
     padding: 20px;
 
     background-color: #f8f9fb;
 
     border: 1px solid #d6d9de;
     border-left: 5px solid #1f4e79;
-
     border-radius: 10px;
 
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .career-tips h2 {
+    color: #1f4e79;
     margin-top: 0;
     margin-bottom: 12px;
-    color: #1f4e79;
 }
 
 .career-tips p {
@@ -288,4 +344,37 @@ footer {
 .career-tips li {
     margin-bottom: 8px;
     line-height: 1.4;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media screen and (max-width: 768px) {
+
+    .jobs {
+        padding: 50px 20px;
+    }
+
+    .jobs h1 {
+        font-size: 1.8rem;
+    }
+
+    .jobs-layout {
+        display: block;
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    .job {
+        padding: 18px;
+    }
+
+    /* On small screens Career Tips becomes normal */
+    .career-tips {
+        position: static;
+        width: auto;
+        margin: 20px 0;
+    }
 }
