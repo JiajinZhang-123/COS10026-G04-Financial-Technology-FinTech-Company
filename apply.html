@@ -38,8 +38,61 @@
                 <h1>Apply to Finova Technologies Today</h1>
                 <p>Join our team and help shape the future of financial technology.</p>
             </div>
-            
         </section>
+
+        <div class="applyForm">
+
+            <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="POST">
+
+                <fieldset>
+                    <legend><strong>Job</strong></legend>
+                    <p class="infoTitle"> <label>Application Reference Number</label></p>
+                    <div class="nameInputs">
+                        <input type="text" name="jobReferenceNumber" id="jobReferenceNumber" pattern="[A-Za-z]{1,6}" required="required" maxlength="6" placeholder="Job Reference Number">
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend><strong>Personal Information</strong></legend>
+
+                    <div class="Name">
+                        <p class="infoTitle"> <label>Name</label></p>
+                        <div class="nameInputs">
+                            <input type="text" name="firstName" id="firstName" pattern="[A-Za-z]{1,20}" required="required" maxlength="20" placeholder="First Name">
+                            <input type="text" name="lastName" id="lastName" pattern="[A-Za-z]{1,20}" required="required" maxlength="20" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="dateOfBirth">
+                        <p class="infoTitle"> <label>Date of Birth</label></p>
+                        <div class="nameInputs">
+                            <input type="date" name="dateOfBirth" id="dateOfBirth" required="required">
+                        </div>
+                    </div>
+
+                    <div class="Gender">
+                        <p class="infoTitle"> <label>Gender</label></p>
+                        <div class="nameInputs">
+                            <input type="radio" name="Gender" id="Male" required="required" value="Male">
+                            <label for="Male" style="font-size: 14px;">Male</label>
+
+                            <input type="radio" name="Gender" id="Female" required="required" value="Female">
+                            <label for="Female" style="font-size: 14px;">Female</label>
+
+                            <input type="radio" name="Gender" id="Other" required="required" value="Other">
+                            <label for="Other" style="font-size: 14px;">Other</label>
+                        </div>
+                    </div>
+                 
+
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+
 
     </main>
     </body>
