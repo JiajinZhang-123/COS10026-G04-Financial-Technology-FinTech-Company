@@ -421,7 +421,11 @@ footer {
         margin: 0 0 5px; /* Leave a 5 pixel gap between Name and the two field inputs (firstName, lastName)*/
     }
     .nameInputs {
-        display:flex; /* Disregards the standard HTML layout rules*/
+        display:flex; /* Disregards the standard HTML layout rules... also just called flexbox*/
         gap: 10px;
         padding: 3px 15px;
+    }
+
+    .relevantSkills {
+       font-size: 0.875rem;
     }
