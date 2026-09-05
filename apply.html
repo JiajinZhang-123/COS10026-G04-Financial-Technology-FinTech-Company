@@ -48,7 +48,7 @@
                     <legend><strong>Job</strong></legend>
                     <p class="infoTitle"> <label>Application Reference Number</label></p>
                     <div class="nameInputs">
-                        <input type="text" name="jobReferenceNumber" id="jobReferenceNumber" pattern="[A-Za-z]{1,6}" required="required" maxlength="6" placeholder="Job Reference Number">
+                        <input type="text" name="jobReferenceNumber" id="jobReferenceNumber" pattern="[A-Za-z0-9]{6}" required="required" maxlength="6" placeholder="Job Reference Number">
                     </div>
                 </fieldset>
                 
@@ -84,7 +84,17 @@
                         </div>
                     </div>
                  
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Location Information</strong></legend>
 
+                    <div class="StreetAddress">
+                        <p class="infoTitle"> <label>Street Address</label></p>
+                        <div class="nameInputs">
+                            <input type="text" name="streetAddress" id="streetAddress" pattern="[A-Za-z0-9\s]{1,40}" required="required" maxlength="40" placeholder="Street Address">
+                        </div>
+                    </div>
+                 
 
                 </fieldset>
 
