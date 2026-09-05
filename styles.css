@@ -423,4 +423,5 @@ footer {
     .nameInputs {
         display:flex; /* Disregards the standard HTML layout rules*/
         gap: 10px;
+        padding: 3px 15px;
     }

@@ -88,14 +88,44 @@
                 <fieldset>
                     <legend><strong>Location Information</strong></legend>
 
-                    <div class="StreetAddress">
-                        <p class="infoTitle"> <label>Street Address</label></p>
+                    <div class="Location">
+                        <p class="infoTitle"> <label>Address</label></p>
                         <div class="nameInputs">
                             <input type="text" name="streetAddress" id="streetAddress" pattern="[A-Za-z0-9\s]{1,40}" required="required" maxlength="40" placeholder="Street Address">
+                            <input type="text" name="suburbTown" id="suburbTown" pattern="[A-Za-z0-9\s]{1,40}" required="required" maxlength="40" placeholder="Suburb/Town">
                         </div>
-                    </div>
-                 
 
+                         <div class="nameInputs">
+                            <input type="text" name="Postcode" id="Postcode" pattern="[0-9]{4}" required="required" maxlength="4" placeholder="Postcode">
+                        </div>
+
+                        <div class="nameInputs">
+                            <p class="infoTitle"> <label>State</label></p>
+                            <select name="State" id="State" required="required">
+                                <option value="">Please Select</option>
+                                <option value="VIC">VIC</option>
+                                <option value="NSW">NSW</option>
+                                <option value="QLD">QLD</option>
+                                <option value="NT">NT</option>
+                                <option value="WA">WA</option>
+                                <option value="SA">SA</option>
+                                <option value="TAS">TAS</option>
+                                <option value="ACT">ACT</option>
+                            </select>
+                         </div>
+                    </div>
+                </fieldset>
+
+                 <fieldset>
+                    <legend><strong>Contact</strong></legend>
+
+                    <div class="Location">
+                        <p class="infoTitle"> <label>Address</label></p>
+                        <div class="nameInputs">
+                            <input type="text" name="streetAddress" id="streetAddress" pattern="[A-Za-z0-9\s]{1,40}" required="required" maxlength="40" placeholder="Street Address">
+                            <input type="text" name="suburbTown" id="suburbTown" pattern="[A-Za-z0-9\s]{1,40}" required="required" maxlength="40" placeholder="Suburb/Town">
+                        </div>
+                 
                 </fieldset>
 
             </form>
