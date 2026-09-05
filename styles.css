@@ -430,3 +430,29 @@ footer {
     .relevantSkills {
        font-size: 0.875rem;
     }
+
+    .Submission {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;;
+    }
+
+    .Submission input[type="submit"] { /*Changes any input containers with type submit*/
+        padding: 15px 40px; /*Size of the button*/
+        font-weight: bold;
+        font-size: 1.1rem;
+        
+        color: white;
+        background: linear-gradient(135deg, #1f3158, #405fc2);
+
+        border-radius: 5px;
+        border: none;
+
+        cursor: pointer;
+    }
+
+    .Submission input[type="submit"]:hover {
+        background: linear-gradient(135deg, #405fc2, #1f3158);
+        color:#b3b1b1
+    }
