@@ -416,6 +416,12 @@ footer {
         border: 2px solid #dddddd;
         border-radius: 10px; /* Rounded corners */
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Adds a shadowy effect to the border */
+        justify-content: center;
+    }
+
+    .applyForm form {
+        width: 100%;
+        max-width: 700px;
     }
 
     .infoTitle {
