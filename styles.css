@@ -440,6 +440,7 @@ footer {
     max-width: none;
     margin: 0;
     padding: 90px 15%;
+    text-align: left;
     background: linear-gradient(135deg, #1f3158, #405fc2);
     color: white;
 }
@@ -464,7 +465,6 @@ footer {
     padding: 2rem;
 }
 
-/* Student IDs use hexadecimal colour */
 .student-id {
     color: #1e40af;
     font-weight: normal;
@@ -515,20 +515,20 @@ footer {
     margin: 0;
 }
 
-/* 原文：斜体、稍大 */
+
 .quote-original {
     font-style: italic;
     font-size: 1.15rem;
 }
 
-/* 作者名：加粗、深蓝色 */
+
 .quote-author {
     margin-top: 0.4rem !important;
     font-weight: bold;
     color: #1e40af;
 }
 
-/* 英文翻译：灰色小字 */
+
 .quote-english {
     margin-top: 0.25rem !important;
     color: #6b7280;
