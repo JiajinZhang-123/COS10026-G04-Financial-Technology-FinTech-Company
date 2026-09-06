@@ -433,62 +433,111 @@ footer {
 }
 
 /* =========================
-     APPLICATION FORM
+   ABOUT PAGE
    ========================= */
-    .applyForm {
-        display: flex;
-        gap: 20px;
-        max-width: 700px;
-        margin: 100px auto;
-        padding: 0 20px;
-        align-items: center;
-        background-color: #ffffff;
-        border: 2px solid #dddddd;
-        border-radius: 10px; /* Rounded corners */
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Adds a shadowy effect to the border */
-        justify-content: center;
-    }
 
-    .applyForm form {
-        width: 100%;
-        max-width: 700px;
-    }
+.about-hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem 1rem;
+    text-align: center;
+}
 
-    .infoTitle {
-        margin: 0 0 5px; /* Leave a 5 pixel gap between Name and the two field inputs (firstName, lastName)*/
-    }
-    .nameInputs {
-        display:flex; /* Disregards the standard HTML layout rules... also just called flexbox*/
-        gap: 10px;
-        padding: 3px 15px;
-    }
+.about-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
-    .relevantSkills {
-       font-size: 0.875rem;
-    }
+/* Student IDs use hexadecimal colour */
+.student-id {
+    color: #1e40af;
+    font-weight: normal;
+    font-size: 0.85em;
+    margin-left: 0.5rem;
+}
 
-    .Submission {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 20px;;
-    }
+/* Group figure styling */
+.group-figure {
+    max-width: 800px;
+    margin: 1rem auto;
+    text-align: center;
+}
 
-    .Submission input[type="submit"] { /*Changes any input containers with type submit*/
-        padding: 15px 40px; /*Size of the button*/
-        font-weight: bold;
-        font-size: 1.1rem;
-        
-        color: white;
-        background: linear-gradient(135deg, #1f3158, #405fc2);
+.group-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 1px solid #cbd5e1;
+}
 
-        border-radius: 5px;
-        border: none;
+.group-figure figcaption {
+    margin-top: 0.75rem;
+    color: #475569;
+    font-size: 0.95rem;
+}
 
-        cursor: pointer;
-    }
+/* Contributions definition list */
+.contributions dt {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #0f172a;
+}
 
-    .Submission input[type="submit"]:hover {
-        background: linear-gradient(135deg, #405fc2, #1f3158);
-        color:#b3b1b1
-    }
+.contributions dd {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Member quotes */
+.member-quote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid #1e40af;
+}
+
+.member-quote p {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.member-quote footer {
+    color: #475569;
+    font-size: 0.9rem;
+}
+
+.member-quote cite {
+    display: block;
+    font-style: italic;
+    margin-top: 0.25rem;
+}
+
+/* Team fun facts table */
+.fun-facts {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.fun-facts caption {
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+.fun-facts th,
+.fun-facts td {
+    padding: 0.75rem;
+    border: 1px solid #cbd5e1;
+    text-align: left;
+    vertical-align: top;
+}
+
+.fun-facts thead th {
+    background-color: #1e40af;
+    color: #ffffff;
+}
+
+.fun-facts tbody tr:hover {
+    background-color: #e0e7ff;
+}
