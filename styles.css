@@ -490,26 +490,34 @@ footer {
 }
 
 /* Member quotes */
-.member-quote {
+.quote-card {
     margin: 1.5rem 0;
     padding: 1rem 1.5rem;
     border-left: 4px solid #1e40af;
 }
 
-.member-quote p {
-    margin: 0 0 0.5rem;
-    font-size: 1.1rem;
+.quote-card p {
+    margin: 0;
 }
 
-.member-quote footer {
-    color: #475569;
-    font-size: 0.9rem;
-}
-
-.member-quote cite {
-    display: block;
+/* 原文：斜体、稍大 */
+.quote-original {
     font-style: italic;
-    margin-top: 0.25rem;
+    font-size: 1.15rem;
+}
+
+/* 作者名：加粗、深蓝色 */
+.quote-author {
+    margin-top: 0.4rem !important;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+/* 英文翻译：灰色小字 */
+.quote-english {
+    margin-top: 0.25rem !important;
+    color: #6b7280;
+    font-size: 0.85rem;
 }
 
 /* Team fun facts table */
