@@ -508,7 +508,7 @@ footer {
 
 .about-section {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto; /*Automatically divide left and right equally, the content will centered on the screen*/
     padding: 2rem;
 }
 
@@ -519,7 +519,6 @@ footer {
     margin-left: 0.5rem;
 }
 
-/* Group figure styling */
 .group-figure {
     max-width: 800px;
     margin: 1rem auto;
@@ -529,7 +528,7 @@ footer {
 .group-figure img {
     width: 100%;
     height: auto;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; /* Make the picture rounder */
     border: 1px solid #cbd5e1;
 }
 
@@ -551,14 +550,13 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-/* Member quotes */
 .quote-card {
     margin: 1.5rem 0;
     padding: 1rem 1.5rem;
 }
 
 .quote-card p {
-    margin: 0;
+    margin: 0; /* Remove the default margin that comes with the <p> tag */
 }
 
 
@@ -568,23 +566,21 @@ footer {
 }
 
 
-.quote-author {
-    margin-top: 0.4rem !important;
+.quote-card .quote-author {
+    margin-top: 0.4rem;   /* two class names, the weight will increase */
     font-weight: bold;
     color: #1e40af;
 }
 
-
-.quote-english {
-    margin-top: 0.25rem !important;
+.quote-card .quote-english {
+    margin-top: 0.25rem;  
     color: #6b7280;
     font-size: 0.85rem;
 }
 
-/* Team fun facts table */
 .fun-facts {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse;  /* Merge the table borders */
     margin-top: 1rem;
 }
 
