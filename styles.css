@@ -478,6 +478,22 @@ footer {
         color:#b3b1b1
     }
 
+    @media screen and (max-width: 768px) {
+        .heroApply {
+            min-height: 220px;
+        }
+        .heroContentApply {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .heroContentApply h1 {
+            font-size: 1.8rem;
+        }
+        fieldset {
+            min-width: 0;
+            padding: 15px 10px;
+        }
+    }
 
 /* =========================
    ABOUT PAGE
